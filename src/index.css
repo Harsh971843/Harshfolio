@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+i {
+  cursor: pointer;
+}
+i:hover {
+  color: gray;
+}
+
+input, textarea {
+  height: 35px;
+  border: 1px solid gray;
+  width: 100%;
+  padding-left: 20px;
+}
+input:focus, textarea:focus {
+  border: 1px solid black;
+}
+textarea {
+  padding-left: 20px;
+  padding-top: 5px;
+  height: 100px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parisienne&display=swap');
