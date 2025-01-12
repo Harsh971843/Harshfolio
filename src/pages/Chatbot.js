@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 function Chatbot() {
-  const genAI = new GoogleGenerativeAI("AIzaSyDk6uDwN2QIgWIUfecg6iDTbOv09C5rVO8");
+  const genAI = new GoogleGenerativeAI("API KEY");
   const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
   const [message, setMessage] = useState('');
